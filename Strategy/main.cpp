@@ -8,6 +8,10 @@
 #include "Player.h"
 #include "Tavern_builder.h"
 #include "Tavern.h"
+#include "Neromonk_factory.h"
+#include "Archer_factory.h"
+#include "Dragon_knight_factory.h"
+#include "Peaceful_alchemist_factory.h"
 
 using namespace std;
 

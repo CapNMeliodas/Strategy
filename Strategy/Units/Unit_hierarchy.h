@@ -2,9 +2,10 @@
 #include <string>
 #include "Unit.h"
 
-const int supportive_type = 1;
-const int melee_type = 2;
-const int range_type = 3;
+const int archer_type = 1;
+const int peaceful_alchemist_type = 2;
+const int dragon_knight_type = 3;
+const int neromonk_type = 4;
 
 
 struct attack {
