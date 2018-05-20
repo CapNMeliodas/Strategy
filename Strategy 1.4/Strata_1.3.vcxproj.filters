@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Units">
+      <UniqueIdentifier>{d1bcb59e-122e-4da5-9dcd-c91a6cac5489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Units_factories">
+      <UniqueIdentifier>{d7b44620-758a-4439-9792-e3868b09d002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Tavern">
+      <UniqueIdentifier>{8243bad2-893d-42f5-89f6-c785c182dfb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Units">
+      <UniqueIdentifier>{a47b49aa-2a82-4901-9406-50b17f1360e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Tavern">
+      <UniqueIdentifier>{18053233-1b78-407e-858c-f9e22a737fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Units_factories">
+      <UniqueIdentifier>{82b3403f-5e78-448d-a826-87fcbb47e495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Units\Dire_units">
+      <UniqueIdentifier>{1fe7a2d1-9eac-4c2d-8844-bf0eaac1d411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Units\Radiant_units">
+      <UniqueIdentifier>{bd7c08e4-463d-4e40-94d1-fb79f6f274d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Units\Dire_units">
+      <UniqueIdentifier>{5de0b9d5-88ff-4806-8e64-cbfd00b35169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Units\Radiant_units">
+      <UniqueIdentifier>{59b9bba7-4c8d-4928-a3df-61a7d85f7eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Player and Army">
+      <UniqueIdentifier>{ead48fc3-f4fc-4985-b9fd-4deb70d40a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Player and Army">
+      <UniqueIdentifier>{885fac3e-20db-44a0-9ed6-fc70047796d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\NPC">
+      <UniqueIdentifier>{ee9d22e1-0431-4e38-add9-e122a4602b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\NPC">
+      <UniqueIdentifier>{fd57c749-73b8-4442-afb6-3cac8cf19256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Units\Dire_units\Unit_adapter">
+      <UniqueIdentifier>{4ad8b28b-5e30-4b37-98e3-c7af535c70ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Units\Radiant_units\Unit_adapter">
+      <UniqueIdentifier>{3059a72b-725e-4741-8297-d5d32cf53b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Command">
+      <UniqueIdentifier>{2a2e8a52-a333-4429-a482-e524af04c884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Memento">
+      <UniqueIdentifier>{f48041f0-b5d7-4f1b-8dce-cc4ee341fb37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Memento">
+      <UniqueIdentifier>{3402ec2a-f792-486b-8391-62c816cf1354}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Dire.cpp">
+      <Filter>Файлы исходного кода\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Radiant.cpp">
+      <Filter>Файлы исходного кода\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Unit.cpp">
+      <Filter>Файлы исходного кода\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Unit_hierarchy.cpp">
+      <Filter>Файлы исходного кода\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Dire_units\Dire_archer.cpp">
+      <Filter>Файлы исходного кода\Units\Dire_units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Dire_units\Dire_horseman.cpp">
+      <Filter>Файлы исходного кода\Units\Dire_units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Dire_units\Dire_knight.cpp">
+      <Filter>Файлы исходного кода\Units\Dire_units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Radiant_Units\Radiant_archer.cpp">
+      <Filter>Файлы исходного кода\Units\Radiant_units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Radiant_Units\Radiant_horseman.cpp">
+      <Filter>Файлы исходного кода\Units\Radiant_units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Radiant_Units\Radiant_knight.cpp">
+      <Filter>Файлы исходного кода\Units\Radiant_units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Radiant_Units\Radiant_mage.cpp">
+      <Filter>Файлы исходного кода\Units\Radiant_units</Filter>
+    </ClCompile>
+    <ClCompile Include="Units\Dire_units\Dire_mage.cpp">
+      <Filter>Файлы исходного кода\Units\Dire_units</Filter>
+    </ClCompile>
+    <ClCompile Include="Tavern\Tavern_builder.cpp">
+      <Filter>Файлы исходного кода\Tavern</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit_factory\Dire_unit_factory.cpp">
+      <Filter>Файлы исходного кода\Units_factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit_factory\Radiant_unit_factory.cpp">
+      <Filter>Файлы исходного кода\Units_factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Player and Army\Army.cpp">
+      <Filter>Файлы исходного кода\Player and Army</Filter>
+    </ClCompile>
+    <ClCompile Include="Player and Army\Player.cpp">
+      <Filter>Файлы исходного кода\Player and Army</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC\Decorator.cpp">
+      <Filter>Файлы исходного кода\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Memento\Memento.cpp">
+      <Filter>Файлы исходного кода\Memento</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Statistics.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Dire_units\Dire_horseman.h">
+      <Filter>Заголовочные файлы\Units\Dire_units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Dire_units\Dire_archer.h">
+      <Filter>Заголовочные файлы\Units\Dire_units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Dire_units\Dire_knight.h">
+      <Filter>Заголовочные файлы\Units\Dire_units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Dire_units\Dire_mage.h">
+      <Filter>Заголовочные файлы\Units\Dire_units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Radiant_Units\Radiant_archer.h">
+      <Filter>Заголовочные файлы\Units\Radiant_units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Radiant_Units\Radiant_horseman.h">
+      <Filter>Заголовочные файлы\Units\Radiant_units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Radiant_Units\Radiant_knight.h">
+      <Filter>Заголовочные файлы\Units\Radiant_units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Radiant_Units\Radiant_mage.h">
+      <Filter>Заголовочные файлы\Units\Radiant_units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Radiant.h">
+      <Filter>Заголовочные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Dire.h">
+      <Filter>Заголовочные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Unit.h">
+      <Filter>Заголовочные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Unit_hierarchy.h">
+      <Filter>Заголовочные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Tavern\Tavern.h">
+      <Filter>Заголовочные файлы\Tavern</Filter>
+    </ClInclude>
+    <ClInclude Include="Tavern\Tavern_builder.h">
+      <Filter>Заголовочные файлы\Tavern</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit_factory\Unit_factory.h">
+      <Filter>Заголовочные файлы\Units_factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit_factory\Dire_unit_factory.h">
+      <Filter>Заголовочные файлы\Units_factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit_factory\Radiant_unit_factory.h">
+      <Filter>Заголовочные файлы\Units_factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Player and Army\Army.h">
+      <Filter>Заголовочные файлы\Player and Army</Filter>
+    </ClInclude>
+    <ClInclude Include="Player and Army\Player.h">
+      <Filter>Заголовочные файлы\Player and Army</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC\Base_playble_obj.h">
+      <Filter>Заголовочные файлы\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC\Decorator.h">
+      <Filter>Заголовочные файлы\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Adapter.h">
+      <Filter>Заголовочные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Dire_units\Unit_adapter\Dire_archer_adapter.h">
+      <Filter>Заголовочные файлы\Units\Dire_units\Unit_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Dire_units\Unit_adapter\Dire_horseman_adapter.h">
+      <Filter>Заголовочные файлы\Units\Dire_units\Unit_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Dire_units\Unit_adapter\Dire_knight_adapter.h">
+      <Filter>Заголовочные файлы\Units\Dire_units\Unit_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Dire_units\Unit_adapter\Dire_mage_adapter.h">
+      <Filter>Заголовочные файлы\Units\Dire_units\Unit_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Radiant_Units\Unit_adapter\Radiant_horseman_adapter.h">
+      <Filter>Заголовочные файлы\Units\Radiant_units\Unit_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Radiant_Units\Unit_adapter\Radiant_knight_adapter.h">
+      <Filter>Заголовочные файлы\Units\Radiant_units\Unit_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Radiant_Units\Unit_adapter\Radiant_mage_adapter.h">
+      <Filter>Заголовочные файлы\Units\Radiant_units\Unit_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Units\Radiant_Units\Unit_adapter\Radiant_archer_adapter.h">
+      <Filter>Заголовочные файлы\Units\Radiant_units\Unit_adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter_includer.h">
+      <Filter>Заголовочные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\Command.h">
+      <Filter>Заголовочные файлы\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento\Memento.h">
+      <Filter>Заголовочные файлы\Memento</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

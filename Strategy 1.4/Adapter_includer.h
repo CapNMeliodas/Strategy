@@ -1,0 +1,9 @@
+#pragma once
+#include "../Strata_1.3/Units/Dire_units/Unit_adapter/Dire_archer_adapter.h"
+#include "../Strata_1.3/Units/Dire_units/Unit_adapter/Dire_horseman_adapter.h"
+#include "../Strata_1.3/Units/Dire_units/Unit_adapter/Dire_mage_adapter.h"
+#include "../Strata_1.3/Units/Dire_units/Unit_adapter/Dire_knight_adapter.h"
+#include "../Strata_1.3/Units/Radiant_Units/Unit_adapter/Radiant_archer_adapter.h"
+#include "../Strata_1.3/Units/Radiant_Units/Unit_adapter/Radiant_horseman_adapter.h"
+#include "../Strata_1.3/Units/Radiant_Units/Unit_adapter/Radiant_knight_adapter.h"
+#include "../Strata_1.3/Units/Radiant_Units/Unit_adapter/Radiant_mage_adapter.h"
