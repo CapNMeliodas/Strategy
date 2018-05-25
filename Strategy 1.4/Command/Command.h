@@ -23,6 +23,7 @@ class MakeMoveCommand : public Command {
 public:
 	MakeMoveCommand(Game* p) : Command(p) {}
 	void execute() {
+		std::cout << "You have 2 choices: 1 - robe people, 2 - go to the crusade!" << std::endl;
 		int doing = 0;
 		std::cin >> doing;
 		pgame->make_move(doing);
@@ -35,7 +36,6 @@ public:
 	void execute() {
 		pgame->save_game();
 	}
-
 };
 
 class UndoCommand : public Command {

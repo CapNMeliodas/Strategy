@@ -20,7 +20,17 @@ int main() {
 	vector<Command*> v;
 	v.push_back(new CreateGameCommand(&game));
 	v.push_back(new SaveGameCommand(&game));
-	
+
+	//Одна холостая итерация
+	for (int i = 0; i < v.size(); ++i) {
+		v[i]->execute();
+	}
+
+	for (int i = 0; i < v.size(); ++i) {
+		delete v[i];
+	}
+	v.resize(0);
+	//
 	
 
 	while (true) {
@@ -48,6 +58,8 @@ int main() {
 		for (int i = 0; i < v.size(); ++i) {
 			delete v[i];
 		}
+		
+		v.resize(0);
 	}
 	
 	system("pause");

@@ -5,7 +5,8 @@ using namespace std;
 
 void Game::make_move(int variant) {
 	if (variant == 1) {
-		Main_player->gold_bag += rand() % 200;
+		Main_player->gold_bag += rand() % 200;//убрать рандом
+		cout << "Anarchy you got some gold: " << Main_player->Get_gold() << endl;
 		return;
 	}
 	else if (variant == 2) {
@@ -19,7 +20,7 @@ void Game::make_move(int variant) {
 				Main_player->manapool += 20;
 			}
 			else if (answer == "No" || answer == "no" || answer == "yesn't") {
-				cout << "Fock you, asshole! Now you have a curse of!\n" << "Curse: -20 manapool" << endl;
+				cout << "Fock you, asshole! Now you have a curse of an aincient mage!\n" << "Curse: -20 manapool" << endl;
 				Main_player->manapool = max(0, Main_player->manapool - 20);
 			}
 		}
