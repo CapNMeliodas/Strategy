@@ -1,4 +1,4 @@
-#include "../Dire_units/Dire_horseman.h"
+#include "Dire_horseman.h"
 #include <iostream>
 
 void Dire_horseman::Representation() {

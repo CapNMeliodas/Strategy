@@ -1,13 +1,13 @@
 #pragma once
-#include "../Strata_1.3/Units/Unit_hierarchy.h"
-#include "../Strata_1.3/Unit_factory/Radiant_unit_factory.h"
-#include "../Strata_1.3/Unit_factory/Dire_unit_factory.h"
-#include "../Strata_1.3/Adapter_includer.h"
-#include "../Strata_1.3/Tavern/Tavern_builder.h"
+#include "Units/Unit_hierarchy.h"
+#include "Unit_factory/Radiant_unit_factory.h"
+#include "Unit_factory/Dire_unit_factory.h"
+#include "Adapter_includer.h"
+#include "Tavern/Tavern_builder.h"
 #include "Player and Army\Player.h"
 #include "Player and Army\Army.h"
 #include "NPC/Decorator.h"
-#include "../Strata_1.3/Memento/Memento.h"
+#include "Memento/Memento.h"
 
 class Game {
 public:

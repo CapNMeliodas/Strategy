@@ -1,4 +1,4 @@
-#include "../Dire_units/Dire_knight.h"
+#include "Dire_knight.h"
 #include <iostream>
 
 void Dire_knight::Representation() {
